@@ -1,4 +1,4 @@
-const CACHE = "quiz-al-se-portoir-0fb9f3a458";
+const CACHE = "quiz-al-se-portoir-3b03e1203f";
 const FILES = ["./", "index.html", "manifest.webmanifest", "icon.svg"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
